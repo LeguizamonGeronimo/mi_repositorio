@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Original Clothes</title><!--Nombre en la ventana-->
+</head>
+<body>
+    <header><!--Encabezado-->
+        <h1 class="Titulo_Principal">Original Clothes</h1><!--Titulo-->
+        <ul class="lista_Menu_Navegacion"><!--Lista desordenada-->
+            <li class="menu_Navegacion"><a href="../index.html">INICIO</a> </li><!--Items de la lista-->
+            <li class="menu_Navegacion"><a href="buzos.html">BUZOS</a></li>
+            <li class="menu_Navegacion"><a href="remeras.html">REMERAS</a> </li>
+            <li class="menu_Navegacion"><a href="zapatillas.html">ZAPATILLAS</a> </li>
+            <li class="menu_Navegacion"><a href="contacto.html">CONTACTO</a> </li>
+        </ul>
+    </header>
+    <main><!--Contenido principal del sitio-->
+        <form>
+            <h2 class="Titulo_Principal" >Contactanos - Original Clothes</h2>
+            <div class="contact_form">
+                <div class="input_group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="input_group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" placeholder="Ingrese su apellido">
+                </div>
+                <div class="input_group">
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" placeholder="Ingrese su edad">
+                </div>
+                <div>
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" value="hombre"/>
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" value="mujer">
+                </div>
+                <div class="input_group">
+                    <input class="button" type="submit" value="Enviar datos">
+                    <input type="reset" value="Resetear">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <label for="Email">Suscribite a nuestro newsletter</label>
+        <input type="Email" name="Email" placeholder="ingrse su email">
+        <input type="submit" name="Email">
+    </footer>
+</body>
+</html>
