@@ -117,7 +117,11 @@ section {
 .menu_Navegacion{
     display: inline-block;
     font-size: 20px;
-    
+    transition: ease-in-out 3s;
+}
+.menu_Navegacion:focus{
+    height: 200px;
+    font-size: 24px
 }
 
 
@@ -165,7 +169,6 @@ section {
     border-radius: 10px;
     font-size: 36px;
     font-family:'Courier New', Courier, monospace
-    
 }
 
 
