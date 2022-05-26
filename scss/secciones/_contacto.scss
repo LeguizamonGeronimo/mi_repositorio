@@ -1,0 +1,20 @@
+.contact_form {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 200px;
+    width: 100%;
+  }
+  
+  .contact_form label {
+    color: #ffffff;
+  }
+  
+  .contact_form input {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .button {
+    background-color: #4400ff;
+  }
